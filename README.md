@@ -35,7 +35,7 @@ You may find it useful to not add `_mur` if you want to commit the subsystem as 
 - If you don't care about updates to `ursys-min`, then delete the `_mur/.git` with `rm -fr _mur/.git` and add the files to your repo
 - If you want to manage the changes in `_mur` independently, you should add `_mur` to your `.gitignore`, and make a note that **ursys-min is a subrepo dependency** in your project installation, perhaps providing your own installer script.
 
-## (Optional) Typescript Intellisense for Visual Studio Code
+#### (Optional) Typescript Intellisense for Visual Studio Code
 
 For reliable live linting of Typescript in VSCODE, your project workspace needs a `tsconfig.json` in the project workpace root. 
 
